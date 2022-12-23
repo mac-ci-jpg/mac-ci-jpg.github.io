@@ -5,7 +5,7 @@ AFRAME.registerComponent("player", {
     gravity: { type: "number", default: -4.8 }, // m / s^2
     padding: { type: "number", default: 0.4 }, // m
     paddingHand: { type: "number", default: 0.03 }, // m
-    handStrength: { type: "number", default: 50 },
+    handStrength: { type: "number", default: 99 },
     friction: { type: "number", default: 0.08 },
     keepAwayWallsDistance: { type: "number", default: 10 } // m
   },
