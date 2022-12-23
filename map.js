@@ -43,7 +43,7 @@ AFRAME.registerComponent("map", {
   },
 
   playCollideSound: function() {
-    this.crystal.components.sound__hit.playSound();
+    //this.crystal.components.sound__hit.playSound();
   },
 
   updateMap: function(playerWorldPosition, playerVelocity, velocityRaycaster, webRaycasters) {
