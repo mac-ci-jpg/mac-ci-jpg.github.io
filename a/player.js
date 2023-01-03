@@ -2,7 +2,7 @@ AFRAME.registerComponent("player", {
   schema: {
     mass: { type: "number", default: 70 }, // kg
     bounce: { type: "number", default: 0.81 }, // 0 - 1 (larger is more bouncy)
-    gravity: { type: "number", default: -0.8 }, // m / s^2
+    gravity: { type: "number", default: 0.8 }, // m / s^2
     padding: { type: "number", default: 0.4 }, // m
     paddingHand: { type: "number", default: 0.03 }, // m
     handStrength: { type: "number", default: 199 },
