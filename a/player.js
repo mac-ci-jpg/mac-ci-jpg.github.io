@@ -193,7 +193,7 @@ AFRAME.registerComponent("player", {
         this.updateScore();
       }
       // collision
-      rigLocalPosition.y = 0;
+      rigLocalPosition.y = 1000;
       this.velocity.reflect(new THREE.Vector3(0, 2.1, 0));
       this.velocity.multiplyScalar(this.data.bounce);
     }
