@@ -17,7 +17,7 @@ AFRAME.registerComponent("web", {
     this.model.setAttribute("visible", false);
     */
     this.model = document.createElement("a-box");
-    this.model.setAttribute("color", "#e2e1dd");
+    this.model.setAttribute("color", "#f2e1dd");
     this.model.setAttribute("opacity", 0.8);
     this.model.setAttribute("visible", false);
     this.model.setAttribute("width", 0.01);
